@@ -1,0 +1,109 @@
+/***************************************************
+Common
+***************************************************/
+
+/* RESET & TYPOGRAPHY */
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #f4f5f7;
+  color: #2b3d51;
+  font-size: 1.4em;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Novecento Wide";
+  font-size: 100%;
+  letter-spacing: 0.03em;
+}
+h1 {
+  margin-bottom: 1em;
+}
+p {
+  margin: 1em 0;
+}
+a {
+  color: #2b3d51;
+  background-color: #d4dade;
+  padding: 3px 5px;
+  text-decoration: none;
+}
+  a:hover {
+    background-color: #e5e8ea;
+  }
+.huge {
+	font-family: "Novecento Wide", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+  background-color: transparent;
+}
+	.huge:hover {
+  	background-color: #e5e8ea;
+	}
+#copyright {
+	text-align: left;
+	font-size: 0.8em;
+}
+	
+/* LAYOUT */
+.site {
+  text-align: justify;
+  width: 800px;
+  margin: 80px auto 20px;
+  line-height: 1.5em;
+}
+div.site-title-container {
+	margin: 80px 0 40px;
+}
+a.site-title {
+	margin-left: -15px;
+	padding: 15px;
+	color: #2b3d51;
+	text-decoration: none;
+}
+h1.site-title:hover {
+	background-color: #e5e8ea;
+}
+footer {
+  margin-top: 3em;
+}
+
+/***************************************************
+Home
+***************************************************/
+
+a.home-post {
+	text-decoration: none;
+	color: #2b3d51;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}  
+div.home-post-container {
+	padding: 15px;
+	margin-left: -15px;
+	margin-bottom: 15px;
+}
+div.home-post-container:hover {
+	background-color: #e5e8ea;
+}
+p.home-post-excerpt {
+	margin: 5px 0 0;
+}
+
+/***************************************************
+Post
+***************************************************/
+
+.post-title {
+  font-size: 1.4em;
+}
+.date {
+  font-size: 0.8em;
+}
