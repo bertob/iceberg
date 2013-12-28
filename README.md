@@ -5,6 +5,5 @@ A minimalist [Jekyll](http://jekyllrb.com/) theme for blogs with a fully respons
 
 ![Screenshot](_img/screenshot.png)
 
-LICENSE
-=======
+##License
 Iceberg is developed by [Tobias Bernard](http://tobiasbernard.com/) and released under the GNU GPLv3 or later
